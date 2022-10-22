@@ -1,0 +1,32 @@
+GET http://127.0.0.1:5000/receitas/1 HTTP/1.1
+content-type: application/json
+
+####################
+PUT http://127.0.0.1:5000/receitas/1 HTTP/1.1
+content-type: application/json
+
+{
+    "titulo": "Brigadeiro de casca de banana",
+    "ingredientes": "Cascas de 2 bananas, bem lavadas e picadas; 1 lata de leite condensado; 4 colheres (sopa) de chocolate em pó; 1 colher (sopa) de margarina ou manteiga",
+    "preparo": "Bata todos os ingredientes no liquidificador. Leve a mistura ao fogo baixo para ferver, mexendo sempre até começar a soltar do fundo. Desligue e deixe esfriar. Depois, você pode enrolar e passar no granulado ou servir em copinhos."
+}
+
+####################
+DELETE http://127.0.0.1:5000/receitas/1 HTTP/1.1
+content-type: application/json
+
+
+####################
+POST http://127.0.0.1:5000/receitas HTTP/1.1
+content-type: application/json
+
+{
+    "titulo": "Bolinhos de talos e folhas",
+    "ingredientes": " ovos bem batidos/- 2 xícaras (chá) de talos ou folhas bem lavados e picados/- 6 colheres (sopa) de farinha de trigo/- 1/2 cebola picada/- 2 colheres (sopa) de água/- Sal a gosto/- Óleo para fritar",
+    "preparo": "No caso de talos, cozinhe-os antes até que fiquem al dente. Misture todos os ingredientes e use uma colher para fazer bolinhos, fritando-os em óleo bem quente. Escorra em papel absorvente. Os bolinhos podem ser feitos com talos de couve, couve-flor, acelga e/ou agrião, folhas de cenoura, beterraba, nabo e/ou rabanete."
+}
+
+
+####################
+GET http://127.0.0.1:5000/receitas/lista HTTP/1.1
+content-type: application/json
