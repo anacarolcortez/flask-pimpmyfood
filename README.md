@@ -1,11 +1,9 @@
 # API com Flask Restful "Pimp My Food"
-Projeto resultante de curso sobre Flask-Restful na DIO.me. 
-API que faz CRUD de receitas para reaproveitamento de partes de alimentos que costumamos jogar fora, como cascas e talos, que são altamente nutritivas e econômicas.
+CRUD de receitas para reaproveitamento de partes de alimentos que costumamos jogar fora, como cascas e talos, que são altamente nutritivas e econômicas.
 
 * Flask
 * Flask-Restful
 * SQL Alckemy (ORM)
-* Autenticação
 
 #### Instalação
 * Criar ambiente virtual
